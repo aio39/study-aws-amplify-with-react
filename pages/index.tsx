@@ -11,6 +11,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import { API, graphqlOperation } from 'aws-amplify';
+import { NextPage } from 'next';
 import { useEffect, useState } from 'react';
 import { v4 as uuid } from 'uuid';
 import { createTodo } from '../src/graphql/mutations';
